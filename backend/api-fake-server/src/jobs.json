@@ -84,5 +84,42 @@
       },
       "id": "k2a2vhp"
     }
+  ],
+  "signup": [
+    {
+      "email": "miro@gmail.com",
+      "password": "123abcABC!#",
+      "id": 1
+    },
+    {
+      "email": "miro2@gmail.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "email": "miro@gmail.com",
+      "password": "123",
+      "id": 3
+    },
+    {
+      "email": "miro@gmail.com",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "email": "miro@gmail.com",
+      "password": "123",
+      "id": 5
+    },
+    {
+      "email": "miro45@gmail.com",
+      "password": "123",
+      "id": 6
+    },
+    {
+      "email": "miro23@hot.com",
+      "password": "123",
+      "id": 7
+    }
   ]
 }
