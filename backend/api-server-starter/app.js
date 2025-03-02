@@ -9,6 +9,7 @@ const {
   errorHandler,
 } = require('./middleware/customMiddleware');
 const jobRouter = require('./routes/jobRouter');
+const userRouter = require('./routes/userRouter');
 
 // Middlewares
 app.use(cors());
@@ -19,6 +20,7 @@ connectDB();
 
 // Use the jobRouter for all /api/jobs routes
 app.use('/api/jobs', jobRouter);
+app.use('/api/users', userRouter);
 
 app.use(unknownEndpoint);
 app.use(errorHandler);

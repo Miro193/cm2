@@ -6,8 +6,11 @@ const {
   updateJob,
   deleteJob,
 } = require('../controllers/jobControllers');
+const requireAuth = require('../middleware/requireAuth');
 
 const router = express.Router();
+
+// router.use(requireAuth);
 
 router.get('/', getJobs);
 router.get('/:id', getJob);
